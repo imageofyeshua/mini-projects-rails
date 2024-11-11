@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get "modal/index"
   get "pricing_cards/index"
   get "email_card/index"
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
