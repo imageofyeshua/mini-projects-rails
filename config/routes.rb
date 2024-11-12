@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get "login/index"
   get "gallery/index"
   get "modal/index"
   get "pricing_cards/index"
